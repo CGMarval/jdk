@@ -181,6 +181,7 @@ fijado openjdk-11-jdk como instalado manualmente.
 0 actualizados, 0 nuevos se instalarán, 0 para eliminar y 6 no actualizados.
 ```
 </details>
+-
 
   - 13
 
@@ -199,6 +200,8 @@ Leyendo la información de estado... Hecho
 E: No se ha podido localizar el paquete openjdk-13-jdk
 ```
 </details>
+-
+
   - 8
 
 ```code
@@ -314,6 +317,7 @@ Procesando disparadores para libc-bin (2.35-0ubuntu3.4) ...
 Procesando disparadores para mailcap (3.70+nmu1ubuntu1) ...
 ```
 </details>
+-
 
 La versión que se debe de trabajar es la versión 8. Para ello verificaremos la versión de java que se esta ejecutando con la sentencia:
 
@@ -329,6 +333,7 @@ OpenJDK Runtime Environment (build 11.0.20.1+1-post-Ubuntu-0ubuntu122.04)
 OpenJDK 64-Bit Server VM (build 11.0.20.1+1-post-Ubuntu-0ubuntu122.04, mixed mode, sharing)
 ```
 </details>
+-
 
 En caso que no se ejecuta la versión 8 se debe configurar las variables de entorno.
 
@@ -374,6 +379,7 @@ Pulse <Intro> para mantener el valor por omisión [*] o pulse un número de sele
 
 ```
 </details>
+-
 
 y selecciona la version 8.
 
@@ -385,7 +391,7 @@ selecionamos la versión 8:
 update-alternatives: utilizando /usr/lib/jvm/java-8-openjdk-amd64/jre/bin/java para proveer /usr/bin/java (java) en modo manual
 ```
 </details>
-
+-
 
 
 Otra opción es : añadir el siguiente código:
@@ -416,7 +422,7 @@ Finalmente, cargue las variables de entorno usando el comando de source
 ```code
 source /etc/profile.d/java.sh
 ```
-
+<>
 
 > Realizado por: __Cleyber Esteban García Marval__
 
