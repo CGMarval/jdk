@@ -205,7 +205,17 @@ E: No se ha podido localizar el paquete openjdk-13-jdk
 sudo apt install openjdk-8-jdk
 ```
 <details><summary>Salida</summary>
-sudo apt install openjdk-8-jdkConfiguración de las variables de entorno
+sudo apt install openjdk-8-jdk
+
+```code
+esteban@esteban-VirtualBox:~$ sudo apt install openjdk-8-jdk
+Leyendo lista de paquetes... Hecho
+Creando árbol de dependencias... Hecho
+Leyendo la información de estado... Hecho
+Se instalarán los siguientes paquetes adicionales:
+  fonts-dejavu-extra libatk-wrapper-java libatk-wrapper-java-jni
+  openjdk-8-jdk-headless openjdk-8-jre openjdk-8-jre-headless
+Paquetes sugeridos:
   openjdk-8-demo openjdk-8-source visualvm fonts-nanum fonts-ipafont-gothic
   fonts-ipafont-mincho fonts-wqy-microhei fonts-wqy-zenhei
 Se instalarán los siguientes paquetes NUEVOS:
@@ -222,13 +232,33 @@ Des:4 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 openjdk-8-jr
 Des:5 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 openjdk-8-jre amd64 8u382-ga-1~22.04.1 [75,4 kB]
 Des:6 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 openjdk-8-jdk-headless amd64 8u382-ga-1~22.04.1 [8.851 kB]
 Des:7 http://archive.ubuntu.com/ubuntu jammy-updates/universe amd64 openjdk-8-jdk amd64 8u382-ga-1~22.04.1 [3.943 kB]
-Descargados 45,8 MB en 4s (12,6 MB/s)   Configuración de las variables de entornojava-jni:amd64 previamente no selecciona
+Descargados 45,8 MB en 4s (12,6 MB/s)    
+Seleccionando el paquete fonts-dejavu-extra previamente no seleccionado.
+(Leyendo la base de datos ... 604615 ficheros o directorios instalados actualmen
+te.)
+Preparando para desempaquetar .../0-fonts-dejavu-extra_2.37-2build1_all.deb ...
+Desempaquetando fonts-dejavu-extra (2.37-2build1) ...
+Seleccionando el paquete libatk-wrapper-java previamente no seleccionado.
+Preparando para desempaquetar .../1-libatk-wrapper-java_0.38.0-5build1_all.deb .
+..
+Desempaquetando libatk-wrapper-java (0.38.0-5build1) ...
+Seleccionando el paquete libatk-wrapper-java-jni:amd64 previamente no selecciona
 do.
 Preparando para desempaquetar .../2-libatk-wrapper-java-jni_0.38.0-5build1_amd64
 .deb ...
 Desempaquetando libatk-wrapper-java-jni:amd64 (0.38.0-5build1) ...
 Seleccionando el paquete openjdk-8-jre-headless:amd64 previamente no seleccionad
-o.Configuración de las variables de entornodk-8-jdk-headless_8u382-ga-1~22.04.1_am
+o.
+Preparando para desempaquetar .../3-openjdk-8-jre-headless_8u382-ga-1~22.04.1_am
+d64.deb ...
+Desempaquetando openjdk-8-jre-headless:amd64 (8u382-ga-1~22.04.1) ...
+Seleccionando el paquete openjdk-8-jre:amd64 previamente no seleccionado.
+Preparando para desempaquetar .../4-openjdk-8-jre_8u382-ga-1~22.04.1_amd64.deb .
+..
+Desempaquetando openjdk-8-jre:amd64 (8u382-ga-1~22.04.1) ...
+Seleccionando el paquete openjdk-8-jdk-headless:amd64 previamente no seleccionad
+o.
+Preparando para desempaquetar .../5-openjdk-8-jdk-headless_8u382-ga-1~22.04.1_am
 d64.deb ...
 Desempaquetando openjdk-8-jdk-headless:amd64 (8u382-ga-1~22.04.1) ...
 Seleccionando el paquete openjdk-8-jdk:amd64 previamente no seleccionado.
@@ -388,6 +418,8 @@ source /etc/profile.d/java.sh
 ```
 
 
-Realizado por: Cleyber Esteban García Marval
-Curso: 1º DAM
-Nº lista: 8
+> Realizado por: __Cleyber Esteban García Marval__
+
+> Curso: __1º DAM__
+
+> Nº lista: __8__
